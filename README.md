@@ -1,40 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lottery Next.js Frontend
 
-## Getting Started
+This repository contains a Next.js frontend for the Lottery smart contract project. It serves as a practice project to learn how to build modern web interfaces with Next.js and interact with blockchain smart contracts.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project demonstrates a Next.js web application that connects to the Lottery smart contract. It provides users with an interface to view lottery details, participate by funding the lottery, and check the lottery results. The project is designed as a learning exercise for integrating smart contract interactions into a Next.js website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Next.js Framework:** Utilizes Next.js for server-side rendering and improved performance.
+- **Blockchain Integration:** Connects to the Lottery smart contract to fetch data and perform transactions.
+- **User Interface:** Simple and responsive UI for interacting with the lottery.
+- **Smart Contract Interaction:** Enables functionalities such as funding the lottery and checking the current state of the contract.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Prerequisites
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Node.js:** Make sure you have Node.js installed.
+- **Yarn or npm:** Package manager to install dependencies.
+- **MetaMask:** Browser extension for connecting to the Ethereum network.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation & Setup
 
-## Learn More
+1. **Clone the Repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/alqeren1/lottery-nextjs-frontend.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the Project Directory:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   cd lottery-nextjs-frontend
+   ```
 
-## Deploy on Vercel
+3. **Install Dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Usage
+
+Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   yarn dev
+   ```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the application in your browser. Ensure your Ethereum wallet is connected and configured to the correct network for proper interaction with the smart contract.
+
+
+
+## Learning Outcomes
+
+This project was developed as a practice exercise to:
+
+- Gain hands-on experience with Next.js and server-side rendering.
+- Understand how to interact with Ethereum smart contracts from a web application.
+- Learn how to structure and deploy a Next.js application that integrates with blockchain technology.
+
+
+
+## Contact
+
+For any questions or further discussion, please reach out via [alqeren1](https://github.com/alqeren1) or email [alqeren1@gmail.com](mailto:alqeren1@gmail.com).
